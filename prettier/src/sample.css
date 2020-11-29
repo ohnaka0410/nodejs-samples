@@ -1,0 +1,7 @@
+.hogehoge {
+    background-color: #fff;
+  color: #000;
+}
+.hogehoge::before {
+    content: "";
+  }

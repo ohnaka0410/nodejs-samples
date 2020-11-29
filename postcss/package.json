@@ -1,0 +1,23 @@
+{
+  "name": "postcss_sample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ohnaka0410@github.com/ohnaka0410/PostCSS-Sample.git"
+  },
+  "author": "ohnaka@no4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohnaka0410/PostCSS-Sample/issues"
+  },
+  "homepage": "https://github.com/ohnaka0410/PostCSS-Sample#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0"
+  }
+}

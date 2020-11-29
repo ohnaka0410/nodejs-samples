@@ -1,0 +1,24 @@
+{
+  "name": "prettier_sample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "format": "prettier --write src/**/*.*",
+    "watch": "onchange \"src/**/*.*\" -- prettier --write {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ohnaka0410@github.com/ohnaka0410/Prettier-Sample.git"
+  },
+  "author": "ohnaka@no4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohnaka0410/Prettier-Sample/issues"
+  },
+  "homepage": "https://github.com/ohnaka0410/Prettier-Sample#readme",
+  "private": true,
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "prettier": "2.2.1"
+  }
+}
